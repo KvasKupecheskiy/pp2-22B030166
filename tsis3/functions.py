@@ -101,10 +101,8 @@ def unique_elements(lst):
 # 11. Write a Python function that checks whether a word or phrase is palindrome or not. Note: A palindrome is word,
 # phrase, or sequence that reads the same backward as forward, e.g., madam
 def is_palindrome(text):
-    a = list(text)
-    text1 = a.reverse()
-    return a == text1
-t = list(input())
+    return text == text[::-1]
+t = input()
 print(is_palindrome(t))
 
 # 12. Define a functino histogram() that takes a list of integers and prints a histogram to the screen. For example,
