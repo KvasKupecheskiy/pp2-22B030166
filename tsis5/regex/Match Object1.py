@@ -1,5 +1,6 @@
 import re
 
 txt = "The rain in Spain"
-x = re.search("ai", txt)
+x = re.findall("ai", txt)
+
 print(x) #this will print an object

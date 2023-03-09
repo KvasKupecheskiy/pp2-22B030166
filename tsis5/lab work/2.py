@@ -1,6 +1,6 @@
 import re
-
-file = open ('C:/Users/acer/Desktop/git lessin/L5/lab work/row.txt', 'r', encoding='UTF8')
-result = re.findall(r".*a.*b.*b.*|.*a.*b.*b.*b.*", file.read())
+print (dir(re))
+file = open ('/Users/rustammusagaliev/Desktop/University study/semestr 2/GIT/pp2-22B030166/tsis5/lab work/row.txt', 'r')
+result = re.findall(r".*а.*б.*б.*|.*а.*б.*б.*б.*", file.read())
 #result = re.findall(".*a.{2}b.*", file.read())
 print(result)
