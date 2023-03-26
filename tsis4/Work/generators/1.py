@@ -4,3 +4,4 @@ def square(n):
 
 for x in square(int(input())):
     print (x)
+    
