@@ -12,8 +12,8 @@ screen.fill((255, 255, 255))
 # pygame.mixer - многоканальное аудио
 # управлять звуками - pygame.mixer.Sound
 
-snd1 = pygame.mixer.Sound("tsis7\snds\Like a G6 by Arukame Suzuya.mp3") # грузим треки
-snd2 = pygame.mixer.Sound("tsis7\snds\Sunset by Blu Swing.mp3")
+snd1 = pygame.mixer.Sound("/Users/rustammusagaliev/Documents/University study/semestr 2/GIT/pp2-22B030166/tsis7/snds/Like a G6 by Arukame Suzuya.mp3") # грузим треки
+snd2 = pygame.mixer.Sound("/Users/rustammusagaliev/Documents/University study/semestr 2/GIT/pp2-22B030166/tsis7/snds/Sunset by Blu Swing.mp3")
 ml = [snd1, snd2] # грузим в (плей)лист :)
 
 basicFont = pygame.font.SysFont(None, 38) # создаём шрифты

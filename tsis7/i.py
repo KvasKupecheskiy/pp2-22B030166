@@ -4,14 +4,14 @@ res = w, h = 1080, 720
 
 pygame.init() # This kicks things off. It initializes all the modules required for PyGame.
 done = False
-image = pygame.image.load("tsis7/imgs/mickeyclock.png") # imgs by Arukame Suzuya (https://vk.com/arukame)
+image = pygame.image.load("/Users/rustammusagaliev/Documents/University study/semestr 2/GIT/pp2-22B030166/tsis7/imgs/mickeyclock.png") # imgs by Arukame Suzuya (https://vk.com/arukame)
 img = pygame.transform.scale(image, (res))
 screen = pygame.display.set_mode(res) # resolution of image
 
 # right hand - minutes
-minutes = pygame.image.load("tsis7/imgs/righthand.png")
+minutes = pygame.image.load("/Users/rustammusagaliev/Documents/University study/semestr 2/GIT/pp2-22B030166/tsis7/imgs/righthand.png")
 # left hand - seconds
-seconds = pygame.image.load("tsis7/imgs/lefthand.png")
+seconds = pygame.image.load("/Users/rustammusagaliev/Documents/University study/semestr 2/GIT/pp2-22B030166/tsis7/imgs/lefthand.png")
 
 clck = dict(zip(range(60), range(0, 360, 6))) # for minutes and seconds
 
